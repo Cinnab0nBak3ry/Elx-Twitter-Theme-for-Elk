@@ -1,0 +1,395 @@
+@-moz-document domain("elk.zone") {
+/* ==UserStyle==
+@name         El𝕏 
+@description  Elk themed to look more Twitter
+@namespace    https://github.com/SlippingGitty/Elx
+@version      1.0.0
+@author       Vozer
+==/UserStyle== */
+
+/*                                        
+     ***** **    ***                    
+  ******  **** *  ***                   
+ **   *  * ****    **                   
+*    *  *   **     **                   
+    *  *           **     ***    ***    
+   ** **           **    * ***  **** *  
+   ** **           **       *** *****   
+   ** ******       **        ***  **    
+   ** *****        **         ***       
+   ** **           **        * ***      
+   *  **           **       *   ***     
+      *            **      *     ***    
+  ****         *   **     *       *** * 
+ *  ***********    *** * *         ***  
+*     ******        ***                 
+*                                       
+ **                                     
+                                        */
+    
+/*  -------- Logo  -------- 
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > div:nth-child(1) > a > div {
+    display: none;
+}
+
+.xl\:w-10, [xl\:w-10=""] {
+    width: 1.5em;
+    height: 1.4em;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    -webkit-mask-image: url("https://files.catbox.moe/w11c6e.png");
+    mask-image: url("https://files.catbox.moe/a0in7g.svg");
+}
+
+svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
+    fill: rgb(108 112 117 / 0%);
+} */
+
+
+/* -------- Dark Theme stuff  -------- */       
+.dark {
+    --c-primary: rgba(86, 157, 224, 1) !important;
+    --c-primary-active: rgba(86, 157, 224, 1) !important;
+    --c-primary-light: var(--c-dark-primary-light);
+    --c-primary-fade: var(--c-dark-primary-fade);
+    --c-border: rgb(15, 59, 58);
+    --c-border-dark: rgb(15, 59, 58);
+    --rgb-bg-base: rga(17, 17, 17);
+    --c-bg-active: rgb(40, 40, 40);
+    --c-bg-card: #ffffff06;
+    --c-bg-code: #ffffff06;
+    --c-bg-dm: rgb(15, 59, 58);
+    --c-bg-base: rgb(0, 0, 0);
+    --c-text-base: rgb(224, 224, 224);
+    --c-text-secondary: rgba(108, 112, 117);
+    --c-text-secondary-light: rgba(108, 112, 117);
+    --c-bg-btn-disabled: rgb(40, 40, 40);
+    --c-text-btn-disabled: rgba(35, 145, 223, 0.612);
+    --c-background-amoled: black;
+    --c-background-dark: rgb(16, 19, 22);
+    --c-background-midnight: rgb(21, 32, 43);
+    --c-sidebar-midnight: rgb(28, 47, 66);
+    --c-sidebar-dark: rgb(40, 40, 40);
+    --c-text-color: white;
+}
+    
+body {
+    background-color: black;
+}
+
+/*  -------- New Posts  -------- */
+#__nuxt > div:nth-child(2) > main > div > div:nth-child(1) > div > div.sm\:max-w-600px.md\:shrink-0 > div:nth-child(2) > div:nth-child(2) > button[py-4=""]{
+    margin-left: auto;
+    margin-right: auto;
+    width: 9.7em
+}
+
+/*  -------- Avatar  -------- */
+.w-48px, [w-48px=""] {
+    width: 48px;
+    border-radius: 50%;
+}
+
+/*  -------- Posts  -------- */
+.md\:shrink-0 {
+    border-right: rgba(48, 51, 54, 1) solid 1px;    
+    border-left: rgba(48, 51, 54, 1) solid 1px;  
+}
+
+.vue-recycle-scroller.ready.direction-vertical .vue-recycle-scroller__item-view {
+    width: 100%;
+    border-top: rgba(49, 51, 54, 1) solid 2px;
+    padding-top: 5px;
+
+}
+
+/*  -------- Dividers -------- */
+.w-auto, [w-auto=""] {
+    display: none;
+}
+
+/*  -------- Search  -------- */
+.ps-4, [ps-4=""] {
+    background-color: rgba(33, 35, 39, 1);
+    border-radius: 50px;
+}
+
+/*  -------- User Name -------- */
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div > a > div > div:nth-child(2) > div > span {
+    color: white;
+}
+
+/*  -------- Some Info -------- */
+#__nuxt > div:nth-child(2) > main > aside.hidden.lg\:w-1\/5.xl\:w-1\/4.sm\:none.xl\:block.native\:w-full.zen-hide > div > footer > div:nth-child(1) {
+    background-color: rgba(22, 24, 28, 1);
+    border-radius: 50px;
+    padding: 15px;
+}
+#__nuxt > div:nth-child(2) > main > aside.hidden.lg\:w-1\/5.xl\:w-1\/4.sm\:none.xl\:block.native\:w-full.zen-hide > div > footer > div:nth-child(1)::before {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 2px;
+    content: "\a Extra";
+    display: block; 
+    color: rgb(255, 255, 255);
+}
+
+/*  -------- Logo  -------- */
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > div:nth-child(1) > a > div {
+    display: none;
+}
+
+.xl\:w-10, [xl\:w-10=""] {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgba(74, 153, 233, 1);
+    margin: 10px;
+    -webkit-mask-image: url("https://files.catbox.moe/lljn2j.png");
+    mask-image: url("https://files.catbox.moe/a0in7g.svg");
+}
+
+svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
+    fill: rgb(108 112 117 / 0%);
+}
+
+/*  -------- Active  -------- */
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div {
+    color: #fff;
+}
+
+/*  -------- Icons  --------*/
+.border-t-1, [border-t-1=""], [border~=t-1], [border~=t] {
+    color: rgba(86, 157, 224, 1);
+}
+
+/*  -------- Tweet Button -------- */
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(9) {
+background: rgb(54, 159, 230);
+    color: white;
+    border-radius: 100px;
+    width: 170px;
+    box-shadow: 1px 1px 10px #0000007a;
+    margin-bottom: 6px;
+    margin-top: 11px;
+    padding-left: 2.7rem;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(9) > div > div > span {
+    visibility: hidden;
+    position: relative;
+}
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(9) > div > div > span:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Tweet";
+}
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(9) > div > div:hover {
+    background-color: transparent;
+}
+
+
+/*  -------- Posting -------- */
+.publish-button[aria-disabled=true][data-v-073d202e], .publish-button {
+    background: rgb(54, 159, 230);
+    color: white;
+    border-radius: 100px;
+    font-weight: bold;
+}
+.border-t-1, [border-t-1=""], [border~=t-1], [border~=t] {
+    border-top-width: 0;
+}
+
+/*  -------- Notification Badge  -------- */
+.text-xs, [text-xs=""], [text~=xs] {
+    color: white;
+}
+}
+
+@-moz-document domain("elk.zone") {
+.i-ri\:repeat-fill, .i-ri\:repeat-line, [i-ri\:repeat-fill=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/4b3uzs.svg");
+    mask-image: url("https://files.catbox.moe/4b3uzs.svg");
+}
+
+
+.i-ri\:bookmark-line, [i-ri\:bookmark-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+    mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+}
+
+.i-ri\:bookmark-fill {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+    mask-image: url("https://files.catbox.moe/3tltw9.svg");
+}
+
+.i-ri-chat-1-line, .i-ri\:chat-1-line, [i-ri-chat-1-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/5mm9pq.svg");
+    mask-image: url("https://files.catbox.moe/5mm9pq.svg");
+}
+
+.i-ri\:search-line, [i-ri\:search-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/4myvk1.svg");
+    mask-image: url("https://files.catbox.moe/j3m1s6.svg");
+}
+
+.i-ri\:home-5-line, [i-ri\:home-5-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/c24aqg.svg");
+    mask-image: url("https://files.catbox.moe/c24aqg.svg");
+}
+
+.i-ri-notification-4-line, .i-ri\:notification-4-line, [i-ri-notification-4-line=""], [i-ri\:notification-4-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/kcf92r.svg");
+    mask-image: url("https://files.catbox.moe/kcf92r.svg");
+}
+
+.i-ri\:at-line, [i-ri\:at-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/jydcyu.svg");
+    mask-image: url("https://files.catbox.moe/jydcyu.svg");
+}
+
+.i-ri-heart-3-line, .i-ri\:heart-3-line, [i-ri-heart-3-line=""], [i-ri\:heart-3-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/a0in7g.svg");
+    mask-image: url("https://files.catbox.moe/a0in7g.svg");
+}
+
+.i-ri\:bookmark-line, [i-ri\:bookmark-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/chalux.svg");
+    mask-image: url("https://files.catbox.moe/chalux.svg");
+}
+
+.i-ri\:hashtag, [i-ri\:hashtag=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/ywvyh2.svg");
+    mask-image: url("https://files.catbox.moe/ywvyh2.svg");
+}
+
+.i-ri\:group-2-line, [i-ri\:group-2-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/sjiyuo.svg");
+    mask-image: url("https://files.catbox.moe/sjiyuo.svg");
+}
+
+.i-ri\:earth-line, [i-ri\:earth-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/5o32sk.svg");
+    mask-image: url("https://files.catbox.moe/5o32sk.svg");
+}
+
+.i-ri\:settings-3-line, [i-ri\:settings-3-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/k7o23i.svg");
+    mask-image: url("https://files.catbox.moe/k7o23i.svg");
+}
+
+
+.i-ri\:list-check, [i-ri\:list-check=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/4s97wj.svg");
+    mask-image: url("https://files.catbox.moe/4s97wj.svg");
+}
+
+[class="i-ri:quill-pen-line"] {
+    display: none;
+}
+}
+
+@-moz-document domain("elk.zone") {
+.i-ri\:repeat-fill, .i-ri\:repeat-line, [i-ri\:repeat-fill=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/4b3uzs.svg");
+    mask-image: url("https://files.catbox.moe/4b3uzs.svg");
+}
+
+.i-ri-chat-1-line, .i-ri\:chat-1-line, [i-ri-chat-1-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/5mm9pq.svg");
+    mask-image: url("https://files.catbox.moe/5mm9pq.svg");
+}
+
+.i-ri\:search-line, [i-ri\:search-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/4myvk1.svg");
+    mask-image: url("https://files.catbox.moe/j3m1s6.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:home-5-line, [i-ri\:home-5-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/sdinqk.svg");
+    mask-image: url("https://files.catbox.moe/sdinqk.svg");
+    transition: .3s;
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:notification-4-line, [i-ri-notification-4-line=""], [i-ri\:notification-4-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/7kp1bu.svg");
+    mask-image: url("https://files.catbox.moe/7kp1bu.svg");
+    transition: .3s;
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:at-line, [i-ri\:at-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/puklis.svg");
+    mask-image: url("https://files.catbox.moe/puklis.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:heart-3-line {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/oc0j9u.svg");
+    mask-image: url("https://files.catbox.moe/oc0j9u.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:bookmark-line, [i-ri\:bookmark-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/kmswh1.svg");
+    mask-image: url("https://files.catbox.moe/kmswh1.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:hashtag, [i-ri\:hashtag=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/ywvyh2.svg");
+    mask-image: url("https://files.catbox.moe/ywvyh2.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:group-2-line, [i-ri\:group-2-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/qiiohv.svg");
+    mask-image: url("https://files.catbox.moe/qiiohv.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:earth-line, [i-ri\:earth-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/m4x30j.svg");
+    mask-image: url("https://files.catbox.moe/m4x30j.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:settings-3-line, [i-ri\:settings-3-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/k7o23i.svg");
+    mask-image: url("https://files.catbox.moe/k7o23i.svg");
+}
+
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:list-check, [i-ri\:list-check=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/4s97wj.svg");
+    mask-image: url("https://files.catbox.moe/4s97wj.svg");
+}
+}
