@@ -156,6 +156,11 @@ svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
 /*  -------- Active  -------- */
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div {
     color: #fff;
+    font-weight: bold;
+}
+    
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav {
+    font-size: 20px;
 }
 
 /*  -------- Icons  --------*/
