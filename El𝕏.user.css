@@ -239,7 +239,7 @@ background: rgb(54, 159, 230);
     box-shadow: 1px 1px 10px #0000007a;
     margin-bottom: 6px;
     margin-top: 11px;
-    padding-left: 3rem;
+    padding-left: 2.7rem;
     margin-left: 1rem;
     font-weight: bold;
     order: 1;
@@ -253,7 +253,7 @@ background: rgb(54, 159, 230);
     position: absolute;
     top: 0;
     left: 0;
-    content: "Post";
+    content: "Tweet";
 }
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(9) > div > div:hover {
     background-color: transparent;
