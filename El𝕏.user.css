@@ -27,24 +27,33 @@
  **                                     
                                         */
     
-/*  -------- X Logo  -------- 
+/* -------- X Logo  --------
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > div:nth-child(1) > a > div {
     display: none;
 }
 
-.xl\:w-10, [xl\:w-10=""] {
+.light .xl\:w-10, .light [xl\:w-10=""] {
     width: 1.5em;
     height: 1.4em;
-    background-color: rgb(255, 255, 255);
+    background-color: black !important;
     margin: 10px;
-    -webkit-mask-image: url("https://files.catbox.moe/w11c6e.png");
+    -webkit-mask-image: url("https://files.catbox.moe/w11c6e.png") !important;
+    mask-image: url("https://files.catbox.moe/a0in7g.svg");
+}
+    
+.dark .xl\:w-10, .dark [xl\:w-10=""] {
+    width: 1.5em;
+    height: 1.4em;
+    background-color: white !important;
+    margin: 10px;
+    -webkit-mask-image: url("https://files.catbox.moe/w11c6e.png") !important;
     mask-image: url("https://files.catbox.moe/a0in7g.svg");
 }
 
 svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
     fill: rgb(108 112 117 / 0%);
-} */
-
+} 
+*/
 
 /* -------- Dark Theme stuff  -------- */       
 .dark {
@@ -73,8 +82,26 @@ svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
     --c-text-color: white;
 }
     
-body {
-    background-color: black;
+.light {
+    --c-primary: rgba(86, 157, 224, 1) !important;
+    --c-primary-active: rgba(86, 157, 224, 1) !important;
+    --c-border: rgba(240, 243, 244, 1);
+    --c-border-light: rgba(240, 243, 244, 1);
+    --c-bg-active: rgba(230, 230, 231, 1);
+    --c-bg-card: #ffffff06;
+    --c-bg-code: #ffffff06;
+    --c-bg-dm: rgb(15, 59, 58);
+    --c-bg-base: rgb(255, 255, 255);
+    --c-text-base: rgb(0, 0, 0);
+    --c-text-secondary: rgba(108, 112, 117);
+    --c-text-secondary-light: rgba(108, 112, 117);
+    --c-bg-btn-disabled: rgb(40, 40, 40);
+    --c-text-btn-disabled: rgba(35, 145, 223, 0.612);
+    --c-text-color: white;
+}
+    
+.light body {
+    background-color: #fff;
 }
 
 /*  -------- New Posts  -------- */
@@ -91,14 +118,25 @@ body {
 }
 
 /*  -------- Posts  -------- */
-.md\:shrink-0 {
+.dark .md\:shrink-0 {
     border-right: rgba(48, 51, 54, 1) solid 1px;    
     border-left: rgba(48, 51, 54, 1) solid 1px;  
 }
+.light .md\:shrink-0 {
+    border-right: rgba(240, 243, 244, 1) solid 1px;    
+    border-left: rgba(240, 243, 244, 1) solid 1px;  
+}
 
-.vue-recycle-scroller.ready.direction-vertical .vue-recycle-scroller__item-view {
+.dark .vue-recycle-scroller.ready.direction-vertical .vue-recycle-scroller__item-view {
     width: 100%;
     border-top: rgba(49, 51, 54, 1) solid 2px;
+    padding-top: 5px;
+
+}
+    
+.light .vue-recycle-scroller.ready.direction-vertical .vue-recycle-scroller__item-view {
+    width: 100%;
+    border-top: rgba(240, 243, 244, 1) solid 2px;
     padding-top: 5px;
 
 }
@@ -109,8 +147,13 @@ body {
 }
 
 /*  -------- Search  -------- */
-.ps-4, [ps-4=""] {
+.dark .ps-4, [ps-4=""] {
     background-color: rgba(33, 35, 39, 1);
+    border-radius: 50px;
+}
+    
+.light .ps-4, .light [ps-4=""] {
+    background-color: rgba(238, 243, 244, 1);
     border-radius: 50px;
 }
 
@@ -120,12 +163,17 @@ body {
 }
 
 /*  -------- Some Info -------- */
-#__nuxt > div:nth-child(2) > main > aside.hidden.lg\:w-1\/5.xl\:w-1\/4.sm\:none.xl\:block.native\:w-full.zen-hide > div > footer > div:nth-child(1) {
+.dark #__nuxt > div:nth-child(2) > main > aside.hidden.lg\:w-1\/5.xl\:w-1\/4.sm\:none.xl\:block.native\:w-full.zen-hide > div > footer > div:nth-child(1) {
     background-color: rgba(22, 24, 28, 1);
     border-radius: 50px;
     padding: 15px;
 }
-#__nuxt > div:nth-child(2) > main > aside.hidden.lg\:w-1\/5.xl\:w-1\/4.sm\:none.xl\:block.native\:w-full.zen-hide > div > footer > div:nth-child(1)::before {
+.light #__nuxt > div:nth-child(2) > main > aside.hidden.lg\:w-1\/5.xl\:w-1\/4.sm\:none.xl\:block.native\:w-full.zen-hide > div > footer > div:nth-child(1) {
+    background-color: rgba(247, 249, 249, 1);
+    border-radius: 50px;
+    padding: 15px;
+}
+.dark #__nuxt > div:nth-child(2) > main > aside.hidden.lg\:w-1\/5.xl\:w-1\/4.sm\:none.xl\:block.native\:w-full.zen-hide > div > footer > div:nth-child(1)::before {
     font-weight: bold;
     font-size: 20px;
     margin-left: 10px;
@@ -133,6 +181,16 @@ body {
     content: "\a Extra";
     display: block; 
     color: rgb(255, 255, 255);
+}
+    
+.light #__nuxt > div:nth-child(2) > main > aside.hidden.lg\:w-1\/5.xl\:w-1\/4.sm\:none.xl\:block.native\:w-full.zen-hide > div > footer > div:nth-child(1)::before {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 2px;
+    content: "\a Extra";
+    display: block; 
+    color: rgb(0, 0, 0);
 }
 
 /*  -------- Logo  -------- */
@@ -154,8 +212,12 @@ svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
 }
 
 /*  -------- Active  -------- */
-#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div {
+.dark #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div {
     color: #fff;
+    font-weight: bold;
+}
+.light #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div {
+    color: #000;
     font-weight: bold;
 }
     
@@ -177,7 +239,7 @@ background: rgb(54, 159, 230);
     box-shadow: 1px 1px 10px #0000007a;
     margin-bottom: 6px;
     margin-top: 11px;
-    padding-left: 2.7rem;
+    padding-left: 3rem;
     margin-left: 1rem;
     font-weight: bold;
     order: 1;
@@ -191,7 +253,7 @@ background: rgb(54, 159, 230);
     position: absolute;
     top: 0;
     left: 0;
-    content: "Tweet";
+    content: "Post";
 }
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(9) > div > div:hover {
     background-color: transparent;
