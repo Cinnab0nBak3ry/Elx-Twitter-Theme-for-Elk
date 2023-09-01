@@ -27,7 +27,7 @@
  **                                     
                                         */
     
-/* -------- X Logo  --------
+/* -------- X Logo  -------- 
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > div:nth-child(1) > a > div {
     display: none;
 }
@@ -53,7 +53,7 @@
 svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
     fill: rgb(108 112 117 / 0%);
 } 
-*/
+
 
 /* -------- Dark Theme stuff  -------- */       
 .dark {
@@ -236,7 +236,6 @@ background: rgb(54, 159, 230);
     color: white;
     border-radius: 100px;
     width: 170px;
-    box-shadow: 1px 1px 10px #0000007a;
     margin-bottom: 6px;
     margin-top: 11px;
     padding-left: 2.7rem;
@@ -318,53 +317,53 @@ background: rgb(54, 159, 230);
 .i-ri\:home-5-line, [i-ri\:home-5-line=""] {
     background-color: currentColor;
     content: "";
-    -webkit-mask-image: url("https://files.catbox.moe/c24aqg.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/ugea6y.svg");
     mask-image: url("https://files.catbox.moe/c24aqg.svg");
 }
 
 .i-ri-notification-4-line, .i-ri\:notification-4-line, [i-ri-notification-4-line=""], [i-ri\:notification-4-line=""] {
     background-color: currentColor;
     content: "";
-    -webkit-mask-image: url("https://files.catbox.moe/kcf92r.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/w1irim.svg");
     mask-image: url("https://files.catbox.moe/kcf92r.svg");
 }
 
 .i-ri\:at-line, [i-ri\:at-line=""] {
     background-color: currentColor;
     content: "";
-    -webkit-mask-image: url("https://files.catbox.moe/jydcyu.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/sd9qsv.svg");
     mask-image: url("https://files.catbox.moe/jydcyu.svg");
 }
 
 .i-ri-heart-3-line, .i-ri\:heart-3-line, [i-ri-heart-3-line=""], [i-ri\:heart-3-line=""] {
     background-color: currentColor;
     content: "";
-    -webkit-mask-image: url("https://files.catbox.moe/a0in7g.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/dqia6e.svg");
     mask-image: url("https://files.catbox.moe/a0in7g.svg");
 }
 
 .i-ri\:bookmark-line, [i-ri\:bookmark-line=""] {
-    -webkit-mask-image: url("https://files.catbox.moe/chalux.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/f1udrc.svg");
     mask-image: url("https://files.catbox.moe/chalux.svg");
 }
 
 .i-ri\:hashtag, [i-ri\:hashtag=""] {
-    -webkit-mask-image: url("https://files.catbox.moe/ywvyh2.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/zlu08s.svg");
     mask-image: url("https://files.catbox.moe/ywvyh2.svg");
 }
 
 .i-ri\:group-2-line, [i-ri\:group-2-line=""] {
-    -webkit-mask-image: url("https://files.catbox.moe/sjiyuo.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/wo62l5.svg");
     mask-image: url("https://files.catbox.moe/sjiyuo.svg");
 }
 
 .i-ri\:earth-line, [i-ri\:earth-line=""] {
-    -webkit-mask-image: url("https://files.catbox.moe/5o32sk.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/n01gmc.svg");
     mask-image: url("https://files.catbox.moe/5o32sk.svg");
 }
 
 .i-ri\:settings-3-line, [i-ri\:settings-3-line=""] {
-    -webkit-mask-image: url("https://files.catbox.moe/k7o23i.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/gkpjcj.svg");
     mask-image: url("https://files.catbox.moe/k7o23i.svg");
 }
 
@@ -372,7 +371,7 @@ background: rgb(54, 159, 230);
 .i-ri\:list-check, [i-ri\:list-check=""] {
     background-color: currentColor;
     content: "";
-    -webkit-mask-image: url("https://files.catbox.moe/4s97wj.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/1zp8ku.svg");
     mask-image: url("https://files.catbox.moe/4s97wj.svg");
 }
 
@@ -385,7 +384,7 @@ background: rgb(54, 159, 230);
 .i-ri\:repeat-fill, .i-ri\:repeat-line, [i-ri\:repeat-fill=""] {
     background-color: currentColor;
     content: "";
-    -webkit-mask-image: url("https://files.catbox.moe/4b3uzs.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/f3p9ig.svg");
     mask-image: url("https://files.catbox.moe/4b3uzs.svg");
 }
 
@@ -404,23 +403,21 @@ background: rgb(54, 159, 230);
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:home-5-line, [i-ri\:home-5-line=""] {
     background-color: currentColor;
     content: "";
-    -webkit-mask-image: url("https://files.catbox.moe/sdinqk.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/7a7nfd.svg");
     mask-image: url("https://files.catbox.moe/sdinqk.svg");
-    transition: .3s;
 }
 
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:notification-4-line, [i-ri-notification-4-line=""], [i-ri\:notification-4-line=""] {
     background-color: currentColor;
     content: "";
-    -webkit-mask-image: url("https://files.catbox.moe/7kp1bu.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/3mems2.svg");
     mask-image: url("https://files.catbox.moe/7kp1bu.svg");
-    transition: .3s;
 }
 
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:at-line, [i-ri\:at-line=""] {
     background-color: currentColor;
     content: "";
-    -webkit-mask-image: url("https://files.catbox.moe/puklis.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/ej8gc7.svg");
     mask-image: url("https://files.catbox.moe/puklis.svg");
 }
 
@@ -432,27 +429,27 @@ background: rgb(54, 159, 230);
 }
 
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:bookmark-line, [i-ri\:bookmark-line=""] {
-    -webkit-mask-image: url("https://files.catbox.moe/kmswh1.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/6xlhoe.svg");
     mask-image: url("https://files.catbox.moe/kmswh1.svg");
 }
 
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:hashtag, [i-ri\:hashtag=""] {
-    -webkit-mask-image: url("https://files.catbox.moe/ywvyh2.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/zlu08s.svg");
     mask-image: url("https://files.catbox.moe/ywvyh2.svg");
 }
 
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:group-2-line, [i-ri\:group-2-line=""] {
-    -webkit-mask-image: url("https://files.catbox.moe/qiiohv.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/wo62l5.svg");
     mask-image: url("https://files.catbox.moe/qiiohv.svg");
 }
 
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:earth-line, [i-ri\:earth-line=""] {
-    -webkit-mask-image: url("https://files.catbox.moe/m4x30j.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/374vmy.svg");
     mask-image: url("https://files.catbox.moe/m4x30j.svg");
 }
 
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:settings-3-line, [i-ri\:settings-3-line=""] {
-    -webkit-mask-image: url("https://files.catbox.moe/k7o23i.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/gkpjcj.svg");
     mask-image: url("https://files.catbox.moe/k7o23i.svg");
 }
 
@@ -460,7 +457,7 @@ background: rgb(54, 159, 230);
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:list-check, [i-ri\:list-check=""] {
     background-color: currentColor;
     content: "";
-    -webkit-mask-image: url("https://files.catbox.moe/4s97wj.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/iqxhbg.svg");
     mask-image: url("https://files.catbox.moe/4s97wj.svg");
 }
 }
