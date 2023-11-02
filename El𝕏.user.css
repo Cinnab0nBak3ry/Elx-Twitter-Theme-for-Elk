@@ -277,6 +277,21 @@ background: rgb(54, 159, 230);
 .text-xs, [text-xs=""], [text~=xs] {
     color: white;
 }
+
+/* ----- User Profile ----- */
+[border~=bg-base], #__nuxt > div:nth-child(2) > main > div > div:nth-child(1) > div > div.sm\:max-w-600px.md\:shrink-0 > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(1) > button > img {
+    border-radius: 50px;
+}
+button.squircle {
+    border-radius: 100px;
+}
+.p-1, .p1, [p1=""] {
+    margin-top: 5px;
+    padding: 3px;
+}
+.px-1, .px1, [px1=""] .span.content-rich {
+    color: rgba(113, 118, 123, 1);
+}
 }
 
 @-moz-document domain("elk.zone") {
