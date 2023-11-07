@@ -57,12 +57,10 @@ svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
 /* ----- I Stole This Fucking Font ----- */
 @font-face {
   font-family: "Chirp";
-  src: url("https://abs.twimg.com/fonts/chirp-regular-web.woff");
   src: url("https://abs.twimg.com/fonts/chirp-regular-web.woff")format("woff");
 }
 @font-face {
   font-family: "Chirp Bold";
-  src: url("https://abs.twimg.com/fonts/chirp-bold-web.woff");
   src:  url("https://abs.twimg.com/fonts/chirp-bold-web.woff")format("woff");
 }
 
