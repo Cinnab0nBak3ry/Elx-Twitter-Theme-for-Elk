@@ -88,7 +88,8 @@ svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
 [text-sm=""],
 .dark #__nuxt>div:nth-child(2)>main>aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide>div>div>div:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div>a>div>div:nth-child(2)>div>span,
 .\!border-primary,
-.\!children\:border-primary>* {
+.\!children\:border-primary>*,
+ #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(9) > div > div > span:after {
   font-family: "Chirp Bold" !important;
 }
 
