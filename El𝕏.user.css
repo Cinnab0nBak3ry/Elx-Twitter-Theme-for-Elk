@@ -53,7 +53,7 @@
 svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
     fill: rgb(108 112 117 / 0%);
 } 
-
+*/
 /* ----- I Stole This Fucking Font ----- */
 @font-face {
   font-family: "Chirp";
@@ -76,11 +76,11 @@ svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
 .text-secondary-light,
 [text-secondary-light=""],
 .content-rich p:last-child,
-#time {
+  #time {
   font-family: 'Chirp' !important;
 }
 
-#__nuxt>div:nth-child(2)>main>aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide>div>div>nav>a.text-primary.router-link-exact-active>div,
+ #__nuxt>div:nth-child(2)>main>aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide>div>div>nav>a.text-primary.router-link-exact-active>div,
 .font-700,
 .font-bold,
 [font-700=""],
@@ -90,7 +90,7 @@ svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
 #__nuxt>div:nth-child(2)>main>aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide>div>div>div:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div>a>div>div:nth-child(2)>div>span,
 .\!border-primary,
 .\!children\:border-primary>*,
-#__nuxt>div:nth-child(2)>main>aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide>div>div>nav>a:nth-child(9)>div>div>span:after {
+ #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(9) > div > div > span:after {
   font-family: "Chirp Bold" !important;
 }
 
@@ -201,6 +201,9 @@ svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div > a > div > div:nth-child(2) > div > span {
     color: white;
 }
+.light #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div > a > div > div:nth-child(2) > div > span {
+ color: black;
+ }
 
 /*  -------- Some Info -------- */
 .dark #__nuxt > div:nth-child(2) > main > aside.hidden.lg\:w-1\/5.xl\:w-1\/4.sm\:none.xl\:block.native\:w-full.zen-hide > div > footer > div:nth-child(1) {
@@ -238,10 +241,19 @@ svg path.body[data-v-5cb58bfe], svg path.wood[data-v-5cb58bfe] {
     display: none;
 }
 
-.xl\:w-10, [xl\:w-10=""] {
+.light .xl\:w-10, .light [xl\:w-10=""] {
     width: 1.5em;
     height: 1.5em;
     background-color: rgba(74, 153, 233, 1);
+    margin: 10px;
+    -webkit-mask-image: url("https://files.catbox.moe/lljn2j.png");
+    mask-image: url("https://files.catbox.moe/lljn2j.png");
+}
+ 
+.dark .xl\:w-10, .dark [xl\:w-10=""] {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgb(253, 253, 253);
     margin: 10px;
     -webkit-mask-image: url("https://files.catbox.moe/lljn2j.png");
     mask-image: url("https://files.catbox.moe/lljn2j.png");
@@ -521,4 +533,12 @@ button.squircle {
     -webkit-mask-image: url("https://files.catbox.moe/iqxhbg.svg");
     mask-image: url("https://files.catbox.moe/iqxhbg.svg");
 }
+}
+
+
+
+
+/* Twitter Stuff */
+.light #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div, .dark #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div {
+ color: rgba(54, 159, 229, 1);
 }
