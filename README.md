@@ -8,3 +8,7 @@ It's Elk, but now it's themed to look even more Twitter - https://userstyles.wor
 <img width="1650" alt="image" src="https://github.com/Cinnab0nBak3ry/Elx-Twitter-Theme-for-Elk/assets/76500838/261f2dca-99fb-4110-8672-ccd2f1660bc9">
 
 <img width="1650" alt="image" src="https://github.com/Cinnab0nBak3ry/Elx-Twitter-Theme-for-Elk/assets/76500838/8bab6343-01b9-40f4-9580-0aeac3aa08fc">
+
+## Firefox users - 
+### Do the following to fix the Chirp font being broken
+<img width="566" alt="image" src="https://github.com/Cinnab0nBak3ry/Elx-Twitter-Theme-for-Elk/assets/76500838/045efc35-6e88-4b18-9a08-94871f4f0e84">
